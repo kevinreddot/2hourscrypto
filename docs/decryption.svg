@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" stroke="null" style="vector-effect: non-scaling-stroke;">
+ <g stroke="null">
+  <rect fill="#ff7a1c" height="80" width="180" y="0" x="0" />
+  <text font-family="Sans-serif" font-size="20px" y="45" x="30" fill="#ffffff">Шифротекст</text>
+  <text font-style="italic" font-family="Serif" font-size="20px" x="159" y="75" fill="#fffa00">C</text>
+
+  <rect fill="#666666" height="80" width="180" y="0" x="210" />
+  <text font-family="Sans-serif" font-size="20px" y="45" x="220" fill="#ffffff">Расшифрование</text>
+  <text font-style="italic" font-family="Serif" font-size="20px" x="369" y="75" fill="#fffa00">D</text>
+
+  <rect fill="#15631e" height="80" width="180" y="0" x="420" />
+  <text font-family="Sans-serif" font-size="20px" y="45" x="480" fill="#ffffff">Текст</text>
+  <text font-style="italic" font-family="Serif" font-size="20px" x="579" y="75" fill="#fffa00">T</text>
+
+  <rect fill="#666666" height="80" width="180" y="110" x="210" />
+  <text font-family="Sans-serif" font-size="20px" y="155" x="278" fill="#ffffff">Ключ</text>
+  <text font-style="italic" font-family="Serif" font-size="20px" x="369" y="185" fill="#fffa00">k</text>
+
+  <path d="m170,30l30,0l0,-10l20,20l-20,20l0,-10l-30,0z" fill="#1c6fff" stroke="#000000" stroke-width="1"/>
+
+  <path d="m380,30l30,0l0,-10l20,20l-20,20l0,-10l-30,0z" fill="#1c6fff" stroke="#000000" stroke-width="1"/>
+
+  <path d="m290,120l0,-30l-10,0l20,-20l20,20l-10,0l0,30z" fill="#09a089" stroke="#000000" stroke-width="1"/>
+ </g>
+</svg>
