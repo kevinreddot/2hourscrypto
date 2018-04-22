@@ -6,10 +6,19 @@ p {
   text-indent: 30px;
   line-height: 1.2;
 }
+p.intro {
+  font-style: italic;
+  margin: 0.5cm 3cm;
+  text-align: justify;
+}
 img {
   margin: auto;
   display: block;
 }
 h1, h2, h3 {
   font-family: sans-serif;
+}
+
+h2, h3 {
+  margin-top: 1.5cm;
 }
