@@ -1,24 +1,58 @@
+html {
+  font-size: 16px;
+}
+
 body {
+  margin: 0;
+}
+
+article, div#ftext {
   max-width: 25cm;
   margin: auto;
 }
+
 p {
   text-indent: 30px;
-  line-height: 1.2;
 }
+
 p.intro {
   font-style: italic;
-  margin: 0.5cm 3cm;
-  text-align: justify;
+  max-width: 22cm;
+  margin: auto;
 }
+
 img {
   margin: auto;
   display: block;
+  max-width: 95%;
+  min-width: 300px;
 }
+
 h1, h2, h3 {
   font-family: sans-serif;
 }
 
 h2, h3 {
   margin-top: 1.5cm;
+}
+
+h1 {
+  font-size: 130%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 120%;
+}
+
+h3 {
+  font-size: 110%;
+}
+
+footer {
+  border-top: 1px solid #999;
+  padding: 2ex 5ex;
+  font-size: 80%;
+  font-family: sans-serif;
+  background: #cccccc;
 }
