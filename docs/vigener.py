@@ -2,17 +2,16 @@
 # # -*- coding: utf-8 -*-
 import sys
 
-russ = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяабвгдеёжзийклмнопрстуфхцчшщъыьэюяабвгдеёжзийклмнопрстуфхцчшщъыьэюя".decode('utf-8')
-word = "маша".decode('utf-8')
+alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя".decode('utf-8')
+plaintext = "маша".decode('utf-8')
 key = "вася".decode('utf-8')
 ans = ""
 
-
-
-for char, keychar in zip(word,key):
-  charalphabet = russ[russ.index(keychar):]
-  shift = russ.index(keychar)
-  enc = charalphabet[charalphabet.index(char)+shift]
-  ans += enc
-  print char, keychar, enc
+for i in range(len(plaintext)):
+	char = plaintext[i]
+	keychar = key[i % len(key)]
+	alphIndex = (alphabet.index(keychar) + alphabet.index(char) ) % len(alphabet)
+	enc = alphabet[alphIndex]
+	ans += enc
+	print char, keychar, enc
 print(ans)
