@@ -19,6 +19,7 @@ p.intro {
   font-style: italic;
   max-width: 22cm;
   margin: auto;
+  margin-bottom: 1ex;
 }
 
 img {
@@ -33,7 +34,7 @@ h1, h2, h3 {
 }
 
 h2, h3 {
-  margin-top: 1.5cm;
+  margin-top: 1.5ex;
 }
 
 h1 {
