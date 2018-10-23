@@ -30,24 +30,38 @@ img {
   min-width: 300px;
 }
 
-h1, h2, h3 {
-  font-family: sans-serif;
-}
-
-h2, h3 {
-  margin-top: 1.5cm;
-}
-
-h1 {
-  font-size: 130%;
+h1, h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #444;
   text-align: center;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 36pt;
+  margin-top: 2ex;
+}
+
 h2 {
-  font-size: 120%;
+  margin-top:-1ex;
+  margin-left: 10ex;
+  font-weight: 300;
+  font-size: 20pt;
+  margin-bottom: 2ex;
+}
+
+h3, h4 {
+  font-family: sans-serif;
+  margin-top: 1.5cm;
 }
 
 h3 {
+  font-size: 120%;
+}
+
+h4 {
   font-size: 110%;
 }
 
