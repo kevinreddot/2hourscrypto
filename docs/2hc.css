@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   font-family: 'Tinos', serif;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 article, div#ftext {
@@ -61,6 +61,7 @@ h3, h4 {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   margin-top: 2ex;
+  color: #444;
 }
 
 h3 {
