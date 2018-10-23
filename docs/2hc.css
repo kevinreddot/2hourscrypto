@@ -3,12 +3,13 @@ html {
 }
 
 body {
-  margin: 5px;
+  margin: 0;
 }
 
 article, div#ftext {
   max-width: 25cm;
   margin: auto;
+  padding: 1ex;
 }
 
 p {
@@ -19,6 +20,7 @@ p.intro {
   font-style: italic;
   max-width: 22cm;
   margin: auto;
+  padding: 1ex;
 }
 
 img {
