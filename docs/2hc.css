@@ -40,12 +40,12 @@ h1, h2 {
 
 h1 {
   font-weight: 700;
-  font-size: 36pt;
+  font-size: 30pt;
   margin-top: 2ex;
 }
 
 h2 {
-  margin-top:-1ex;
+  margin-top:-0.6ex;
   margin-left: 10ex;
   font-weight: 300;
   font-size: 20pt;
