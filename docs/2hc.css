@@ -1,9 +1,11 @@
 html {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body {
   margin: 0;
+  font-family: 'PT Serif', serif;
+  line-height: 1.2;
 }
 
 article, div#ftext {
@@ -31,7 +33,7 @@ img {
 }
 
 h1, h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin: 0;
   padding: 0;
   color: #444;
@@ -39,22 +41,23 @@ h1, h2 {
 }
 
 h1 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 30pt;
   margin-top: 2ex;
 }
 
 h2 {
-  margin-top:-0.6ex;
+  margin-top:-0.5ex;
   margin-left: 10ex;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 20pt;
   margin-bottom: 2ex;
 }
 
 h3, h4 {
-  font-family: sans-serif;
-  margin-top: 1.5cm;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  margin-top: 2ex;
 }
 
 h3 {
@@ -69,6 +72,5 @@ footer {
   border-top: 1px solid #999;
   padding: 2ex 5ex;
   font-size: 80%;
-  font-family: sans-serif;
   background: #cccccc;
 }
