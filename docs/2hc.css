@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'PT Serif', serif;
+  font-family: 'Tinos', serif;
   line-height: 1.2;
 }
 
@@ -12,6 +12,7 @@ article, div#ftext {
   max-width: 25cm;
   margin: auto;
   padding: 1ex;
+  text-align: justify;
 }
 
 p {
@@ -23,6 +24,8 @@ p.intro {
   max-width: 22cm;
   margin: auto;
   padding: 1ex;
+  text-align: justify;
+  color: #444;
 }
 
 img {
