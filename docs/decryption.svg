@@ -6,7 +6,7 @@
   <text font-style="italic" font-family="Serif" font-size="20px" x="199" y="75" fill="#fffa00">C</text>
 
   <rect fill="#666666" height="80" width="220" y="0" x="250" />
-  <text font-family="Sans-serif" font-size="20px" y="45" x="275" fill="#ffffff">Расшифровывание</text>
+  <text font-family="Sans-serif" font-size="20px" y="45" x="268" fill="#ffffff">Расшифровывание</text>
   <text font-style="italic" font-family="Serif" font-size="20px" x="449" y="75" fill="#fffa00">D</text>
 
   <rect fill="#15631e" height="80" width="220" y="0" x="500" />
