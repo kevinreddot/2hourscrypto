@@ -28,6 +28,15 @@ p.intro {
   color: #444;
 }
 
+div#vigenere {
+  font-family: monospace;
+  text-indent: 0;
+  background: #ccc;
+  width: max-content;
+  padding: 10px;
+  margin: 1ex auto;
+}
+
 img {
   margin: auto;
   display: block;
