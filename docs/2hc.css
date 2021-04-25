@@ -44,6 +44,15 @@ img {
   min-width: 300px;
 }
 
+figure {
+  margin: 0 5cm;
+}
+
+figcaption{
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
 h1, h2 {
   font-family: 'Oswald', sans-serif;
   margin: 0;
